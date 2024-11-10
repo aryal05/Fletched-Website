@@ -9,4 +9,3 @@ const Collection = () => {
 }
 
 export default Collection
-x
