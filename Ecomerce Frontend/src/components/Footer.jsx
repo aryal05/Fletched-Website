@@ -29,8 +29,10 @@ const Footer = () => {
                  
                 </ul>
             </div>
-
-        
+            </div>
+            <div>
+                <hr />
+                <p className='py-5 text-sm text-center'>Copyright 2024 Bauno&Bauni. All rights reserved.</p>
             </div>
 
         </div>
