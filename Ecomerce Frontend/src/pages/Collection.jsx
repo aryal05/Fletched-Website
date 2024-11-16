@@ -48,6 +48,11 @@ const Collection = () => {
 
       </div>
 
+      {/* Right Side */}
+      <div className='flex-1'>
+        
+      </div>
+
      </div>
 
   )
