@@ -13,6 +13,16 @@ const Collection = () => {
   const [subCategory, setSubCategory] = useState([])
 
 
+  const toggleCategory=(e)=>{
+    if(category.includes(e.target.value)){
+      setCategory(prev=> prev.filter(item => item !== e.target.value))
+
+    }
+    else{
+      setCategory(prev=> [...prev, e.target.value])
+    }
+  }
+
   useEffect(()=>{
     setFilterProducts(products)
   },[])
@@ -30,13 +40,13 @@ const Collection = () => {
         <p className='mb-3 text-sm font-medium'>CATEGORIES</p>
         <div className='flex flex-col gap-2 text-sm font-light text-gray-700'>
           <p className='flex gap-2'>
-            <input type="checkbox" className='w-3' value={'Men'} />Men
+            <input type="checkbox" className='w-3' value={'Men'} onChange={toggleCategory}/>Men
           </p>
           <p className='flex gap-2'>
-            <input type="checkbox" className='w-3' value={'Women'} />Women
+            <input type="checkbox" className='w-3' value={'Women'}onChange={toggleCategory}  />Women
           </p>
           <p className='flex gap-2'>
-            <input type="checkbox" className='w-3' value={'Kids'} />Kids
+            <input type="checkbox" className='w-3' value={'Kids'}onChange={toggleCategory} />Kids
           </p>
         </div>
 </div>
