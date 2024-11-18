@@ -43,6 +43,12 @@ const Collection = () => {
     setFilterProducts(productsCopy)
   }
 
+  let fpCopy = filterProducts.slice();
+
+  switch(sortType){
+    
+  }
+
     useEffect(()=>{
    applyFilter()
     },[category,subCategory])
