@@ -34,8 +34,8 @@ const Product = () => {
       {/* Product Data */}
       <div className='flex gap-12 sm:gap-12 flex-col sm:flex-row'> 
 
-        {/* Porduct Image */}
-        <div className='flex-1 flex flex-col-reverse gap-3 sm:flex-row'></div>
+      {/* Porduct Image */}
+      <div className='flex-1 flex flex-col-reverse gap-3 sm:flex-row'></div>
 
       </div>
 
