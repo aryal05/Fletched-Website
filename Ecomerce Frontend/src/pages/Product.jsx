@@ -46,8 +46,12 @@ const Product = () => {
         </div>
         <div className='w-full sm:w-[80%]'>
           <img src={image} className='w-full h-auto' alt="" />
-
         </div>
+      </div>
+
+      {/* Product Info */}
+      <div className='flex-1'>
+        <h1>{productData.name}</h1>
       </div>
 
       </div>
