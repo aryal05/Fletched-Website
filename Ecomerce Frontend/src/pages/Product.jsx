@@ -86,6 +86,7 @@ const Product = () => {
       <div className='mt-20'>
         <div className='flex'>
           <b className='border px-5 py-3 text-sm'>Description</b>
+          <p className='boder px-5 py-3 text-sm'>Reviews(122)</p>
         </div>
       </div>
 
