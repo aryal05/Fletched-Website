@@ -83,7 +83,11 @@ const Product = () => {
       </div>
 
       {/* Description & Review Section */}
-      <div></div>
+      <div className='mt-20'>
+        <div className='flex'>
+          <b className='border px-5 py-3 text-sm'>Description</b>
+        </div>
+      </div>
 
       
     </div>
