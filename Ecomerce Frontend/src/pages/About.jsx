@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div>
       <div>
-        Starting with a blank slate, you can create a new React app using the following command in your terminal:
+       This is the about section page and it will get started Sooon..
       </div>
       
     </div>
